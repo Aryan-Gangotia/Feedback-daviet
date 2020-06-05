@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title>Positive experience</title>
+</head>
+<body style="background-color:#fbc687; font-size:1.5rem; text-align:center;">
+  <h1>Tell us something positive that happened to you today </h1>
+  <form action="Thanks.html" method="post">
+
+    <label for="Name">Name</label>
+    <input type="text" name="Name" placeholder="Enter your name" style="text align:left;"><br> <br>
+
+    <label for="Email">Email</label>
+    <input type="email" name="Email" placeholder="Enter your email address"><br> <br>
+
+    <label for="Scale">On a scale of 1-10, how good was it?</label>
+    <input type="number" name="Scale" placeholder="Enter a number between 1 and 10"><br> <br>
+
+    <label for="Happen">Where did it happen?</label>
+    <select name="Happen">
+      <option value="At home"> At home </option>
+      <option value="At school"> At school</option>
+      <option value="At workplace"> At workplace</option>
+      <option value="Others">Others</option>
+    </select><br><br>
+
+    <label for="Time">At what time of day did it happpen</label>
+    <label><input type="radio" name="Time" id="morning"> Morning</label><br>
+    <label><input type="radio" name="Time" id="Afternoon">Afternoon</label><br>
+    <label><input type="radio" name="Time" id="Evening"> Evening</label><br><br>
+
+    <label for="Emotions">What emotions did you experience(Selct all that apply)</label>
+    <label><input type="checkbox" name="Feelings"> Excited</label><br>
+    <label><input type="checkbox" name="Feelings"> Humbled</label><br>
+    <label><input type="checkbox" name="Feelings"> Elated</label><br>
+    <label><input type="checkbox" name="Feelings"> Loved</label><br>
+    <label><input type="checkbox" name="Feelings"> Enthusiastic</label><br><br>
+
+    <label for="experience-text">Please describe your positive experience</label>
+    <textarea name="experience" rows="4" cols="40" placeholder="Enter your experience here..."></textarea><br><br>
+
+    <input type="submit" name="Submit">
+  </form>
+</body>
+</html>
+
+<!-- Ma'am the form is not aligned as shown in the assignment as it requires css which is not yet introduced -->
